@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1" />
+    <title>Mobile UI</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="info">
+          <p>Hey!</p>
+          <p class="selamat">Selamat Datang <br> di Warung Sidomoro Apps</p>
+        </div>
+        <div class="topnav">
+          <a href="#home" class="active"></a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+      <div class="search">
+        <span class="las la-search"></span>
+        <input type="text" placeholder="Cari menu lalapan anda..." />
+      </div>
+    </header>
+
+    <main>
+      <div class="categories section-wrapper">
+        <div class="flex-header">
+          <h2>Daftar Menu</h2>
+          <a href="daftar-menu.html">See all</a>
+        </div>
+        <div class="items">
+          <div class="item">
+            <div class="item-img" style="background-image: url(img/tempe-penyet.jpg)"></div>
+            <h4>Sambel Tempe</h4>
+          </div>
+          <div class="item">
+            <div class="item-img" style="background-image: url(img/sambel-ayam.jpg)"></div>
+            <h4>Lalapan Ayam</h4>
+          </div>
+          <div class="item">
+            <div class="item-img" style="background-image: url(img/bebek-goreng.jpg)"></div>
+            <h4>Lalapan Bebek</h4>
+          </div>
+          <div class="item">
+            <div class="item-img" style="background-image: url(img/sambel-belut.jpg)"></div>
+            <h4>Lalapan Belut</h4>
+          </div>
+          <div class="item">
+            <div class="item-img" style="background-image: url(img/es-teh.jpg)"></div>
+            <h4>Es Teh</h4>
+          </div>
+          <div class="item">
+            <div class="item-img" style="background-image: url(img/es-jeruk.jpg)"></div>
+            <h4>Es Jeruk</h4>
+          </div>
+          <div class="item">
+            <div class="item-img" style="background-image: url(img/soft-drink.jpg)"></div>
+            <h4>soft Drink</h4>
+          </div>
+          <div class="item">
+            <div class="item-img" style="background-image: url(img/marimas.webp)"></div>
+            <h4>Es Jeruk</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="promo">
+        <div class="items promo-items">
+          <div class="promo-item">
+            <div class="promo-img" style="background-image: url(img/shopeefood.png)"></div>
+            <div class="promo-info">
+              <h3>30% Discount</h3>
+              <p>Gunakan voucher di shopeefood untuk mendapatkan diskon makanan!</p>
+              <a href="">Order now</a>
+            </div>
+          </div>
+          <div class="promo-item">
+            <div class="promo-img" style="background-image: url(img/grab-food.png)"></div>
+            <div class="promo-info">
+              <h3>30% Discount</h3>
+              <p>Gunakan voucher di Grabfood untuk mendapatkan diskon makanan!</p>
+              <a href="">Order now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popular section-wrapper">
+        <div class="flex-header">
+          <h2>Popular deals</h2>
+          <a href="">See all</a>
+        </div>
+        <div class="items">
+          <div class="popular-item">
+            <div class="popular-img" style="background-image: url(img/sambel-ayam.jpg)"></div>
+          </div>
+          <div class="popular-item">
+            <div class="popular-img" style="background-image: url(img/2.jpeg)"></div>
+          </div>
+          <div class="popular-item">
+            <div class="popular-img" style="background-image: url(img/3.jpeg)"></div>
+          </div>
+          <div class="popular-item">
+            <div class="popular-img" style="background-image: url(img/4.jpeg)"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+          
+      </div>
+    </main>
+
+    <div class="bottom-nav">
+      <div class="bottom-inner">
+        <div class="bottom-main">
+          <div class="nav-items">
+            <div class="nav-item">
+              <span class="las la-home"></span>
+              <p>Home</p>
+            </div>
+            <div class="nav-item">
+              <span class="las la-shopping-bag"></span>
+              <p>Order</p>
+            </div>
+          </div>
+          <div class="nav-item-main">
+            <div>
+              <span class="las la-shopping-cart"></span>
+            </div>
+          </div>
+          <div class="nav-items">
+            <div class="nav-item">
+              <span class="las la-gift"></span>
+              <p>Offer</p>
+            </div>
+            <div class="nav-item">
+              <span class="las la-ellipsis-h"></span>
+              <p>More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
